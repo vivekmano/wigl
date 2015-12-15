@@ -1,3 +1,4 @@
+![Wigl](https://www.dropbox.com/s/s5jgdszl144088g/wigl_github.jpg)
 #Wigl v0.1
 An open-source robot controlled by musical notes
 
