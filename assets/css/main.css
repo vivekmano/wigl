@@ -1,0 +1,268 @@
+/*
+ * Author: Carlos Alvarez
+ * URL: http://alvarez.is
+ *
+ * Project Name: Bolt - Free Bootstrap 3 Theme
+ * Version: 1.0
+ * URL: http://blacktie.co
+ */
+
+/* FONTS */
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700,900);
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,300,700,900);
+
+/* OVERALL ASPECT */
+
+body {
+  background-color: #fff;
+    font-family: "Lato";
+    font-weight: 300;
+    font-size: 16px;
+    color: #777;
+
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+
+    margin-top: 70px;
+}
+
+/* Titles */
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Raleway";
+    font-weight: 300;
+    color: #333;
+}
+
+
+/* Paragraph & Typographic */
+p {
+    line-height: 28px;
+    margin-bottom: 25px;
+}
+
+.centered {
+    text-align: center;
+}
+
+.mt {
+	margin-top: 40px;
+}
+
+.mb {
+  margin-bottom: 40px;
+}
+
+.ml {
+  margin-left: 40px;
+}
+
+.mr {
+  margin-right: 40px;
+}
+
+/* Links */
+a {
+    color: #f85c37;
+    word-wrap: break-word;
+
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+a:hover,
+a:focus {
+    color: #7b7b7b;
+    text-decoration: none;
+    outline: 0;
+}
+
+a:before,
+a:after {
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+/* Bootstrap Modifications */
+ hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+
+.navbar {
+	font-weight: 800;
+	font-size: 14px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	background-color: #ffffff;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+	color: #378aca;
+	background-color: #fff;
+	font-size: 18px;
+}
+
+.navbar-brand {
+	font-size: 60px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+/* # order {
+	color: red;
+    background: #fff;
+    border: 3px red;
+    border-style: solid;
+    padding: 5px;
+} */
+
+.btn-theme {
+	color: #ffffff;
+	background-color: #74cfae;
+	border-color: transparent;
+}
+
+.btn {
+	padding: 10px 30px;
+	margin-bottom: 0;
+	font-size: 36px;
+	border: 5px solid transparent;
+	border-radius: 4px;
+}
+
+.lead {
+	letter-spacing: 1px;
+}
+
+/* WRAP SECTIONS */
+
+#video h2 {
+  font-size: 45px;
+}
+
+/* hello */
+#hello {
+	width: 100%;
+	padding-top: 50px;
+	padding-bottom: 20px;
+}
+
+#hello h1 {
+	font-size: 75px;
+	font-weight: 700;
+	letter-spacing: 3px;
+	color: #378aca;
+	margin-bottom: 30px;
+}
+
+#hello h2 {
+	color: #777;
+	font-weight: 400;
+  margin-bottom: 30px;
+}
+
+.gray {
+  background-color: #858585;
+  padding-top: 50px;
+	margin-bottom: 0px;
+}
+
+/* blue */
+.blue {
+	background-color: #378aca;
+	padding-top: 50px;
+	margin-bottom: 0px;
+}
+
+.blue h2, .gray h2 {
+	color: white;
+	font-weight: 400;
+	font-size: 2.5em;
+	margin-bottom: 35px;
+}
+
+.blue p, .gray p {
+	color: white;
+	font-weight: 400;
+	font-size: 20px;
+  margin-right: 30px;
+}
+
+#open-source h1 {
+  font-size: 40px;
+  font-weight: 400;
+  letter-spacing: 3px;
+  color: #378aca;
+}
+
+/* Skills */
+#skills {
+	background-color: #4e4e4e;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	margin-top: 50px;
+}
+
+#skills h3 {
+	color: white;
+}
+
+#skills p {
+	color: white;
+	font-weight: 400;
+}
+
+/* Social Links */
+#social {
+	width: 100%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#social i {
+	font-size: 50px;
+	color: #378aca;
+}
+
+#social .col-md-3:hover {
+	background-color: #f5f5f5;
+}
+
+#social .col-md-3 {
+	padding:30px;
+}
+
+/* Footer */
+#f {
+	padding-top: 20px;
+	background-color: #378aca;
+}
+
+#f p {
+	color: white;
+	text-align: right;
+	font-weight: 400;
+}
+
+/* Image Opacity */
+.grid img {
+    opacity: .7;
+}
+.grid img:hover {
+    opacity: 1;
+}
+
+.osh img {
+  height: auto;
+}
