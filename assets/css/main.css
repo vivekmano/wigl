@@ -105,6 +105,8 @@ a:after {
 	padding-top: 15px;
 	padding-bottom: 15px;
 	background-color: #ffffff;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
 }
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
@@ -114,10 +116,40 @@ a:after {
 }
 
 .navbar-brand {
-	font-size: 60px;
+	font-size: 50px;
 	padding-top: 0px;
 	padding-bottom: 0px;
 }
+
+.navbar-brand>img {
+  height: 100%;
+  padding: 15px; /* firefox bug fix */
+  width: auto;
+}
+
+.navbar.shrink {
+  min-height: 25px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  border-bottom: 2px solid;
+}
+
+.navbar.shrink a {
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+  font-size: 15px;
+}
+
+.navbar.shrink .navbar-brand {
+  font-size: 25px;
+  max-height: 50px;
+}
+
+.navbar.shrink .navbar-toggle {
+  padding: 4px 5px;
+  margin: 8px 15px 8px 0;
+}
+
 
 /* # order {
 	color: red;
@@ -265,4 +297,5 @@ a:after {
 
 .osh img {
   height: auto;
+  margin: 0 auto;
 }
